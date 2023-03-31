@@ -2,8 +2,9 @@
 
 ![](img/image-example.png)
 
-📝 Interact with ChatGPT to receive text responses to questions
-🎨 Generate images using the OpenAI API based on text prompts
+📝 Interact with several LLVMs to receive text responses to questions
+🎨 Generate images using AI from text prompts
+Supported bots: Bard, ChatGPT
 
 # 🚀 Installation
 ```bash
@@ -14,6 +15,7 @@ Set the following environment variables:
 ```
 OPENAI_API_KEY: Your OpenAI API key 🗝️
 DISCORD_BOT_TOKEN: Your Discord bot token 🤖
+BARD_COOKIE: Your cookie used to access Google Bard
 ```
 
 Get the party started 🥳:
@@ -26,6 +28,10 @@ Once the bot is up and running, users can interact with it using the following c
 
 ```
 !ask <question>: 🤔 Send a question to ChatGPT and receive a text response 📩
+!bard <question>: Ask Bard a question and receive a text response
 !draw <prompt>: 🎨 Request an image based on the text prompt 🖼️
 ```
 
+# TODO
+
+Add more bots
